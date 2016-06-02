@@ -1,0 +1,9 @@
+<div class="posts">
+    <div class="post" ng-repeat="post in posts" id="post-{{post.id}}">
+        <h1>{{post.title}}</h1>
+        <p>{{post.body}}</p>
+        <a href="#/post/{{post.id}}">Read more!</a>
+    </div>
+
+    <a href="#/users">Liste des utilisateurs</a>
+</div>

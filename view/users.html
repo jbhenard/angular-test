@@ -1,0 +1,10 @@
+<div class="users">
+    <div class="user" ng-repeat="user in users" id="user-{{user.id}}">
+        <h1>{{user.name}}</h1>
+        <p>{{user.username}}</p>
+        <p>{{user.email}}</p>
+        <a href="#/user/{{user.id}}"></a>
+    </div>
+
+    <a href="#/">Précédents</a>
+</div>

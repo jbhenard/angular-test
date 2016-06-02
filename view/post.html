@@ -1,0 +1,8 @@
+<div class="post">
+    <h1>{{post.title}}</h1>
+    <p>{{post.body}}</p>
+    <em>author: <a href="#/user/{{post.user.id}}">{{post.user.name}}</a></em><br>
+    <a href="#/">Retour!</a>
+
+    <pre>{{post | json}}</pre>
+</div>
